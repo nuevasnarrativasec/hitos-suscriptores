@@ -469,7 +469,7 @@ a.link-suscribete{
         display: inline-block;
     }
 
-    .full-height-minus-header {
+    .box-cabecera .full-height-minus-header {
         /** height: calc(40vh - 50px) !important;**/
         height: 37vh;
     }
@@ -529,6 +529,11 @@ a.link-suscribete{
     .box-item{
         margin: 50px auto;
         margin-bottom: 120px;
+    }
+
+    img.flecha{
+        margin-left: -25px;
+        max-width: 40px;
     }
 
 }

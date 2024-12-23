@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--Para que Google no indexe este index-->
+    <meta name="googlebot" content="noindex" />
+    <meta name="googlebot-news" content="nosnippet" />
+    <meta name="robots" content="noindex, nofollow" />
+    <!---->     
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="./css/style.css?v25"> 
+    <!-- endinject -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=swap" rel="stylesheet">
+       
+
+</head>
+<body>
+
+    <div class="box-cabecera"> 
+
+        <div class="ctn-box-cabecera full-height-minus-header">           
+            
+            <img class="flecha" src="./img/flecha-bajar.png" alt="" width="100%">
+
+        </div>
+    </div>
+    
+    <div class="main">    
+        
+        <h1>
+            110 mil <span>gracias</span>
+        </h1>
+        
+        <h2>
+            <span>El Comercio</span> celebra el hito de superar los <span>110 mil suscriptores digitales</span> con orgullo y profundo agradecimiento a nuestra gran comunidad de lectores. Ellos nos llenan de optimismo y por ellos reafirmamos nuestro compromiso de seguir haciendo del periodismo la más noble de las profesiones.     
+        </h2>    
+        
+        <a href="#" class="link-suscribete">
+            <img src="./img/btn-suscribete.jpg" alt="" width="100%">
+        </a>
+
+        <iframe class="iframe-hitos" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1ztRkuEUsfoi52dqLgp4CRmxMMw630OSdaB15CM9G8uA&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+        
+    
+    </div><!--main-->
+
+ 
+
+    <script>
+        document.querySelector(".flecha").addEventListener("click", function() {
+            const targetPosition = document.querySelector(".main").offsetTop;
+            window.scrollTo({
+                top: targetPosition,
+                behavior: "smooth"
+            });
+        });
+
+    </script>
+
+</body>
+</html>

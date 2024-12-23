@@ -471,6 +471,7 @@ a.link-suscribete{
 
     .full-height-minus-header {
         /** height: calc(40vh - 50px) !important;**/
+        height: 37vh;
     }
 
     .fadein img{

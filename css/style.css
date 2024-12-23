@@ -427,9 +427,9 @@ a.link-suscribete{
         font-size: 1.1em;
     }
 
-    .box-cabecera{
-        
+    .box-cabecera{        
         background-size: cover;
+        height: 32vh;
     }
 
     .ctn-main{
@@ -462,7 +462,7 @@ a.link-suscribete{
     }
 
     iframe{
-        height: 300px;
+        
     }
     
     #wst{
